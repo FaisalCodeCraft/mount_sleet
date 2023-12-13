@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mount__sleet/static/css/main.915c35a3.css",
+    "main.js": "/mount__sleet/static/js/main.9c861cc4.js",
+    "index.html": "/mount__sleet/index.html",
+    "main.915c35a3.css.map": "/mount__sleet/static/css/main.915c35a3.css.map",
+    "main.9c861cc4.js.map": "/mount__sleet/static/js/main.9c861cc4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.915c35a3.css",
+    "static/js/main.9c861cc4.js"
+  ]
+}
