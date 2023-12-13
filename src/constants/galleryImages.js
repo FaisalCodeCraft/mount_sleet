@@ -1,0 +1,26 @@
+export const GALLERY_IMAGES=[
+    {
+      galleryImage:"https://images.pexels.com/photos/5201838/pexels-photo-5201838.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        galleryImage:"https://images.pexels.com/photos/10770174/pexels-photo-10770174.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        galleryImage:"https://images.pexels.com/photos/5210450/pexels-photo-5210450.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        galleryImage:"https://images.pexels.com/photos/4558478/pexels-photo-4558478.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        galleryImage:"https://images.pexels.com/photos/848682/pexels-photo-848682.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        galleryImage:"https://images.pexels.com/photos/15031440/pexels-photo-15031440/free-photo-of-kedarnath-temple.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        galleryImage:"https://images.pexels.com/photos/5210577/pexels-photo-5210577.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        galleryImage:"https://images.pexels.com/photos/6163965/pexels-photo-6163965.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+]
