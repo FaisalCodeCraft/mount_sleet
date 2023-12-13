@@ -4,12 +4,12 @@ import {
   Button,
   Container,
   Grid,
-  Link,
   List,
   ListItem,
   Typography,
 } from "@mui/material";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -29,35 +29,44 @@ const Footer = () => {
 
           {/* Grid item 2 */}
           <Grid item md={2}>
-            <List>
+          <List
+              sx={{
+                display: { xs: "none", sm: "none", md: "flex" },
+                p: "1.8em",
+              }}
+            >
               <ListItem>
                 <Link
-                  href="/About"
-                  sx={{ color: "white", textDecoration: "none" }}
+                  // onClick={() => navigate('/about')}
+                  to={"/About"}
+                  style={{ color: "white", textDecoration: "none" }}
                 >
                   About
                 </Link>
               </ListItem>
               <ListItem>
                 <Link
-                  href="/Trials"
-                  sx={{ color: "white", textDecoration: "none" }}
+                  // onClick={() => navigate('/trails')}
+                  to={"/Trails"}
+                  style={{ color: "white", textDecoration: "none" }}
                 >
-                  Trials
+                  Trails
                 </Link>
               </ListItem>
               <ListItem>
                 <Link
-                  href="/News"
-                  sx={{ color: "white", textDecoration: "none" }}
+                  // onClick={() => navigate('/news')}
+                  to={"/News"}
+                  style={{ color: "white", textDecoration: "none" }}
                 >
                   New
                 </Link>
               </ListItem>
               <ListItem>
                 <Link
-                  href="/Contact"
-                  sx={{ color: "white", textDecoration: "none" }}
+                  // onClick={() => navigate('/contact')}
+                  to={"/contact"}
+                  style={{ color: "white", textDecoration: "none" }}
                 >
                   Contact
                 </Link>
@@ -67,21 +76,17 @@ const Footer = () => {
           {/* Grid item 3 */}
           <Grid item md={1}>
             <List>
-              <ListItem>
-                <Link
+              <ListItem
                   href="/About"
                   sx={{ color: "white", textDecoration: "none" }}
                 >
                   Facebook
-                </Link>
               </ListItem>
-              <ListItem>
-                <Link
+              <ListItem
                   href="/Trials"
                   sx={{ color: "white", textDecoration: "none" }}
                 >
                   Instagram
-                </Link>
               </ListItem>
             </List>
           </Grid>
